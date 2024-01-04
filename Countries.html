@@ -1,0 +1,127 @@
+
+
+<html>
+<title>Countries</title>
+<head>
+<style>
+      p {
+	  color: white;
+	   font-size: 400%;
+        height: 150px;
+        line-height: 150px;
+        text-align: center;
+		font-family: "Lucida Console", "Courier New", monospace;}
+        border: 13px dashed #1c87c9;
+		font-
+      }
+	  </style>
+	  <script>
+//var data = [{"sno":1,"country":"Afghanistan","capital":"Kabul","Continent":"Asia","Flag":"Afghanistan"},{"sno":2,"country":"Algeria","capital":"Algeirs","Continent":"Africa","Flag":"Algeria"},{"sno":3,"country":"Argentina","capital":"Buenos Aires","Continent":"SA","Flag":"Argentina"},{"sno":4,"country":"Australia","capital":"Canberra","Continent":"Australia","Flag":"Australia"},{"sno":5,"country":"Austria","capital":"Vienna","Continent":"Europe","Flag":"Austria"},{"sno":6,"country":"Azerbaijan","capital":"Baku","Continent":"Asia","Flag":"Azerbaijan"},{"sno":7,"country":"Bahamas","capital":"Nassau","Continent":"NA","Flag":"The Bahamas"},{"sno":8,"country":"Bahrain","capital":"Manama","Continent":"Asia","Flag":"Bahrain"},{"sno":9,"country":"Bangladesh","capital":"Dhaka","Continent":"Asia","Flag":"Bangladesh"},{"sno":10,"country":"Belgium","capital":"Brussels","Continent":"Europe","Flag":"Belgium"},{"sno":11,"country":"Bhutan","capital":"Thimpu","Continent":"Asia","Flag":"Bhutan"},{"sno":12,"country":"Botswana","capital":"Gabaron","Continent":"Africa","Flag":"Botswana"},{"sno":13,"country":"Brazil","capital":"Brazillia","Continent":"SA","Flag":"b	razil"},{"sno":14,"country":"Bulgaria","capital":"Sofia","Continent":"Europe","Flag":"Bulgaria"},{"sno":15,"country":"Cambodia","capital":"pnomm penh","Continent":"Asia","Flag":"Cambodia"},{"sno":16,"country":"Canada","capital":"Ottawa","Continent":"NA","Flag":"Canada"},{"sno":17,"country":"Central African Republic","capital":"Bangui","Continent":"Africa","Flag":"The Central African Republic"},{"sno":18,"country":"Chad","capital":"Djamina","Continent":"Africa","Flag":"Chad"},{"sno":19,"country":"Chile","capital":"Santiago","Continent":"SA","Flag":"Chile"},{"sno":20,"country":"China","capital":"Beijing","Continent":"Asia","Flag":"China"},{"sno":21,"country":"Colombia","capital":"Bhogota","Continent":"SA","Flag":"Colombia"},{"sno":22,"country":"Costa Rica","capital":"San Jose","Continent":"NA","Flag":"Costa Rica"},{"sno":23,"country":"Cuba","capital":"Havana","Continent":"NA","Flag":"Cuba"},{"sno":24,"country":"Czechia","capital":"Prague","Continent":"Europe","Flag":"Czechia"},{"sno":25,"country":"Democratic Republic Of Congo","capital":"Kinshasa","Continent":"Africa","Flag":"Democratic Republic Of Congo"},{"sno":26,"country":"Denmark","capital":"Copen Hagen","Continent":"Europe","Flag":"Denmark"},{"sno":27,"country":"Equador","capital":"Quito","Continent":"SA","Flag":"Equador"},{"sno":28,"country":"Egypt","capital":"Cairo","Continent":"Africa","Flag":"Egypt"},{"sno":29,"country":"Equatorial Guinea","capital":"Malabo","Continent":"Africa","Flag":"Equatorial Guinea"},{"sno":30,"country":"Ethiopia","capital":"Addis Ababa","Continent":"Africa","Flag":"Ethiopia"},{"sno":31,"country":"Fiji","capital":"Suva","Continent":"Australia","Flag":"Fiji"},{"sno":32,"country":"Finland","capital":"Helsinki","Continent":"Europe","Flag":"Finland"},{"sno":33,"country":"France","capital":"Paris","Continent":"Europe","Flag":"France"},{"sno":34,"country":"Germany","capital":"Berlin","Continent":"Europe","Flag":"Germany"},{"sno":35,"country":"Ghana","capital":"Akra","Continent":"Africa","Flag":"Ghana"},{"sno":36,"country":"Greece","capital":"Athens","Continent":"Europe","Flag":"Greece"},{"sno":37,"country":"Hungary","capital":"Budapest","Continent":"Europe","Flag":"Hungary"},{"sno":38,"country":"Iceland","capital":"Reyjavik","Continent":"Europe","Flag":"Iceland"},{"sno":39,"country":"India","capital":"NewDelhi","Continent":"Asia","Flag":"India"},{"sno":40,"country":"Indonesia","capital":"Jakarta","Continent":"Asia","Flag":"Indonesia"},{"sno":41,"country":"Iran","capital":"Tehran","Continent":"Asia","Flag":"Iran"},{"sno":42,"country":"Iraq","capital":"Bhagdad","Continent":"Asia","Flag":"Iraq"},{"sno":43,"country":"Ireland","capital":"Dublin","Continent":"Europe","Flag":"Ireland"},{"sno":44,"country":"Israel","capital":"Jerusalem","Continent":"Asia","Flag":"Israel"},{"sno":45,"country":"Italy","capital":"Rome","Continent":"Europe","Flag":"Italy"},{"sno":46,"country":"Jamaica","capital":"Kinston","Continent":"NA","Flag":"Jamaica"},{"sno":47,"country":"Japan","capital":"Tokyo","Continent":"Asia","Flag":"Japan"},{"sno":48,"country":"Kazakhstan","capital":"Nur-Sultan","Continent":"Asia","Flag":"Kazakhstan"},{"sno":49,"country":"Kenya","capital":"Nairobi","Continent":"Africa","Flag":"Kenya"},{"sno":50,"country":"Kuwait","capital":"Kuwait City","Continent":"Asia","Flag":"Kuwait"},{"sno":51,"country":"Laos","capital":"Vientiane","Continent":"Asia","Flag":"The Lao People's Democratic Republic"},{"sno":52,"country":"Lebanon","capital":"Beirut","Continent":"Asia","Flag":"Lebanon"},{"sno":53,"country":"Libya","capital":"Tripoli","Continent":"Asia","Flag":"Libya"},{"sno":54,"country":"Luxembourg","capital":"Luxembourg","Continent":"Europe","Flag":"Luxembourg"},{"sno":55,"country":"Madagascar","capital":"Antananrivo","Continent":"Africa","Flag":"Madagascar"},{"sno":56,"country":"Malaysia","capital":"Kaula Lampur","Continent":"Asia","Flag":"Malaysia"},{"sno":57,"country":"Maldives","capital":"Male","Continent":"Asia","Flag":"Maldives"},{"sno":58,"country":"Mauritius","capital":"Port Louis","Continent":"Asia","Flag":"Mauritius"},{"sno":59,"country":"Mexico","capital":"Mexico City","Continent":"NA","Flag":"Mexico"},{"sno":60,"country":"Monaco","capital":"Monaco","Continent":"Europe","Flag":"Monaco"},{"sno":61,"country":"Mongolia","capital":"Ullan Baatar","Continent":"Asia","Flag":"Mongolia"},{"sno":62,"country":"Morocco","capital":"Rabat","Continent":"Africa","Flag":"Morocco"},{"sno":63,"country":"Myanmar","capital":"Naypyidaw","Continent":"Asia","Flag":"Myanmar"},{"sno":64,"country":"Namibia","capital":"Windhoek","Continent":"Africa","Flag":"Namibia"},{"sno":65,"country":"Nepal","capital":"Khatmandu","Continent":"Asia","Flag":"Nepal"},{"sno":66,"country":"Netherlands","capital":"Amsterdam","Continent":"Europe","Flag":"Netherlands"},{"sno":67,"country":"New Zealand","capital":"Wellington","Continent":"Australia","Flag":"New Zealand"},{"sno":68,"country":"Nigeria","capital":"Abuja","Continent":"Africa","Flag":"Nigeria"},{"sno":69,"country":"North Korea","capital":"Pyongyang","Continent":"Asia","Flag":"The Democratic People's Republic Of Korea"},{"sno":70,"country":"Norway","capital":"Oslo","Continent":"Europe","Flag":"Norway"},{"sno":71,"country":"Oman","capital":"Muscat","Continent":"Asia","Flag":"Oman"},{"sno":72,"country":"Pakistan","capital":"Islamabad","Continent":"Asia","Flag":"Pakistan"},{"sno":73,"country":"Panama","capital":"Panama City","Continent":"NA","Flag":"Panama"},{"sno":74,"country":"Papua New Guinea","capital":"Port Moresby","Continent":"Australia","Flag":"Papua New Guinea"},{"sno":75,"country":"Peru","capital":"Lima","Continent":"SA","Flag":"Peru"},{"sno":76,"country":"Philippines","capital":"Manila","Continent":"Asia","Flag":"Philippines"},{"sno":77,"country":"Poland","capital":"Warsaw","Continent":"Europe","Flag":"Poland"},{"sno":78,"country":"Portugal","capital":"Lisbon","Continent":"Europe","Flag":"Portugal"},{"sno":79,"country":"Qatar","capital":"Doha","Continent":"Asia","Flag":"Qatar"},{"sno":80,"country":"Democratic Republic Of Congo","capital":"Brazzaville","Continent":"Africa","Flag":"Democratic Republic Of Congo"},{"sno":81,"country":"Romania","capital":"Bucharest","Continent":"Europe","Flag":"Romania"},{"sno":82,"country":"Russia","capital":"Moscow","Continent":"Asia","Flag":"Russian Federation"},{"sno":83,"country":"Rwanda","capital":"Kigali","Continent":"Africa","Flag":"Rwanda"},{"sno":84,"country":"Saudi Arabia","capital":"Riyadh","Continent":"Asia","Flag":"Saudi Arabia"},{"sno":85,"country":"Scotland","capital":"Edinburgh","Continent":"Europe","Flag":"Scotland"},{"sno":86,"country":"Senegal","capital":"Dakar","Continent":"Africa","Flag":"Senegal"},{"sno":87,"country":"Serbia","capital":"Belgrade","Continent":"Europe","Flag":"Serbia"},{"sno":88,"country":"Seychelles","capital":"Victoria","Continent":"Africa","Flag":"Seychelles"},{"sno":89,"country":"Singapore","capital":"Singapore","Continent":"Asia","Flag":"Singapore"},{"sno":90,"country":"Slovakia","capital":"Bratislava","Continent":"Europe","Flag":"Slovakia"},{"sno":91,"country":"Slovenia","capital":"Ljubjana","Continent":"Europe","Flag":"Slovenia"},{"sno":92,"country":"Solomon Islands","capital":"Honoria","Continent":"Australia","Flag":"Solomon Islands"},{"sno":93,"country":"Somalia","capital":"Mogadishu","Continent":"Africa","Flag":"Somalia"},{"sno":94,"country":"South Africa","capital":"Pretoria","Continent":"Africa","Flag":"South Africa"},{"sno":95,"country":"South Korea","capital":"Seoul","Continent":"Asia","Flag":"The Republic Of Korea"},{"sno":96,"country":"South Sudan","capital":"Juba","Continent":"Africa","Flag":"South Sudan"},{"sno":97,"country":"Spain","capital":"Madrid","Continent":"Europe","Flag":"Spain"},{"sno":98,"country":"Sri Lanka","capital":"Sri Jayawardanapura Kotte","Continent":"Asia","Flag":"Sri Lanka"},{"sno":99,"country":"Sudan","capital":"Khartoum","Continent":"Africa","Flag":"Sudan"},{"sno":100,"country":"Sweden","capital":"Stockholm","Continent":"Europe","Flag":"Sweden"},{"sno":101,"country":"Switzerland","capital":"Bern","Continent":"Europe","Flag":"Switzerland"},{"sno":102,"country":"Taiwan","capital":"Taipei","Continent":"Asia","Flag":"Taiwan"},{"sno":103,"country":"Tanzania","capital":"Dodoma","Continent":"Africa","Flag":"United Republic Of Tanzania"},{"sno":104,"country":"Thailand","capital":"Bangkok","Continent":"Asia","Flag":"Thailand"},{"sno":105,"country":"Turkey","capital":"Ankara","Continent":"Europe","Flag":"Turkey"},{"sno":106,"country":"Uganda","capital":"Kampala","Continent":"Africa","Flag":"Uganda"},{"sno":107,"country":"Ukraine","capital":"Keiv","Continent":"Europe","Flag":"Ukraine"},{"sno":108,"country":"UAE","capital":"AbuDhabi","Continent":"Asia","Flag":"United Arab Emirates"},{"sno":109,"country":"UK","capital":"London","Continent":"Europe","Flag":"The United Kingdom Of Great Britain And Northern Ireland"},{"sno":110,"country":"USA","capital":"Washington","Continent":"NA","Flag":"The United States Of America"},{"sno":111,"country":"Vatican City","capital":"Vatican City","Continent":"Europe","Flag":"The Holy See"},{"sno":112,"country":"Venezuela","capital":"Caracas","Continent":"SA","Flag":"Venezuela"},{"sno":113,"country":"Vietnam","capital":"Hanoi","Continent":"Asia","Flag":"Viet Nam"},{"sno":114,"country":"Yemen","capital":"Sanaa","Continent":"Asia","Flag":"Yemen"},{"sno":115,"country":"Zambia","capital":"Lusaka","Continent":"Africa","Flag":"Zambia"},{"sno":116,"country":"Zimbabwe","capital":"Harare","Continent":"Africa","Flag":"Zimbabwe"},{"sno":117,"country":"Marshall Islands","capital":"Majuro","Continent":"Australia","Flag":"The Marshall Islands"}]
+var data = [{sno: 1,code: "AD",country: "Andorra"},{sno: 2,code: "AE",country: "United Arab Emirates"}, {sno: 3,code: "AF",country: "Afghanistan"}, {sno: 4,code: "AG",country: "Antigua and Barbuda"}, {sno: 5,code: "AL",country: "Albania"}, {sno: 6,code: "AM",country: "Armenia"}, {sno: 7,code: "AO",country: "Angola"}, {sno: 8,code: "AQ",country: "Antarctica"}, {sno: 9,code: "AR",country: "Argentina"}, {sno: 10,code: "AT",country: "Austria"}, {sno: 11,code: "AU",country: "Australia"}, {sno: 12,code: "AZ",country: "Azerbaijan"}, {sno: 13,code: "BA",country: "Bosnia and Herzegovina"}, {sno: 14,code: "BB",country: "Barbados"}, {sno: 15,code: "BD",country: "Bangladesh"}, {sno: 16,code: "BE",country: "Belgium"}, {sno: 17,code: "BF",country: "Burkina Faso"}, {sno: 18,code: "BG",country: "Bulgaria"}, {sno: 19,code: "BH",country: "Bahrain"}, {sno: 20,code: "BI",country: "Burundi"}, {sno: 21,code: "BJ",country: "Benin"}, {sno: 22,code: "BN",country: "Brunei"}, {sno: 23,code: "BO",country: "Bolivia"}, {sno: 24,code: "BR",country: "Brazil"}, {sno: 25,code: "BS",country: "Bahamas"}, {sno: 26,code: "BT",country: "Bhutan"}, {sno: 27,code: "BW",country: "Botswana"}, {sno: 28,code: "BY",country: "Belarus"}, {sno: 29,code: "BZ",country: "Belize"}, {sno: 30,code: "CA",country: "Canada"}, {sno: 31,code: "CD",country: "Congo"}, {sno: 32,code: "CF",country: "Central African Republic"}, {sno: 33,code: "CG",country: "Congo"}, {sno: 34,code: "CH",country: "Switzerland"}, {sno: 35,code: "CI",country: "Côte D'Ivoire"}, {sno: 36,code: "CL",country: "Chile"}, {sno: 37,code: "CM",country: "Cameroon"}, {sno: 38,code: "CN",country: "China"}, {sno: 39,code: "CO",country: "Colombia"}, {sno: 40,code: "CR",country: "Costa Rica"}, {sno: 41,code: "CU",country: "Cuba"}, {sno: 42,code: "CV",country: "Cape Verde"}, {sno: 43,code: "CY",country: "Cyprus"}, {sno: 44,code: "CZ",country: "Czech Republic"}, {sno: 45,code: "DE",country: "Germany"}, {sno: 46,code: "DJ",country: "Djibouti"}, {sno: 47,code: "DK",country: "Denmark"}, {sno: 48,code: "DM",country: "Dominica"}, {sno: 49,code: "DO",country: "Dominican Republic"}, {sno: 50,code: "DZ",country: "Algeria"}, {sno: 51,code: "EC",country: "Ecuador"}, {sno: 52,code: "EE",country: "Estonia"}, {sno: 53,code: "EG",country: "Egypt"}, {sno: 54,code: "EH",country: "Western Sahara"}, {sno: 55,code: "ER",country: "Eritrea"}, {sno: 56,code: "ES",country: "Spain"}, {sno: 57,code: "ET",country: "Ethiopia"}, {sno: 58,code: "FI",country: "Finland"}, {sno: 59,code: "FJ",country: "Fiji"}, {sno: 60,code: "FM",country: "Micronesia"}, {sno: 61,code: "FR",country: "France"}, {sno: 62,code: "GA",country: "Gabon"}, {sno: 63,code: "GB",country: "United Kingdom"}, {sno: 64,code: "GD",country: "Grenada"}, {sno: 65,code: "GE",country: "Georgia"}, {sno: 66,code: "GF",country: "French Guiana"}, {sno: 67,code: "GH",country: "Ghana"}, {sno: 68,code: "GL",country: "Greenland"}, {sno: 69,code: "GM",country: "Gambia"}, {sno: 70,code: "GN",country: "Guinea"}, {sno: 71,code: "GQ",country: "Equatorial Guinea"}, {sno: 72,code: "GR",country: "Greece"}, {sno: 73,code: "GT",country: "Guatemala"}, {sno: 74,code: "GW",country: "Guinea-Bissau"}, {sno: 75,code: "GY",country: "Guyana"}, {sno: 76,code: "HK",country: "Hong Kong"}, {sno: 77,code: "HN",country: "Honduras"}, {sno: 78,code: "HR",country: "Croatia"}, {sno: 79,code: "HT",country: "Haiti"}, {sno: 80,code: "HU",country: "Hungary"}, {sno: 81,code: "ID",country: "Indonesia"}, {sno: 82,code: "IE",country: "Ireland"}, {sno: 83,code: "IL",country: "Israel"}, {sno: 84,code: "IN",country: "India"}, {sno: 85,code: "IQ",country: "Iraq"}, {sno: 86,code: "IR",country: "Iran"}, {sno: 87,code: "IS",country: "Iceland"}, {sno: 88,code: "IT",country: "Italy"}, {sno: 89,code: "JM",country: "Jamaica"}, {sno: 90,code: "JO",country: "Jordan"}, {sno: 91,code: "JP",country: "Japan"}, {sno: 92,code: "KE",country: "Kenya"}, {sno: 93,code: "KG",country: "Kyrgyzstan"}, {sno: 94,code: "KH",country: "Cambodia"}, {sno: 95,code: "KI",country: "Kiribati"}, {sno: 96,code: "KM",country: "Comoros"}, {sno: 97,code: "KN",country: "Saint Kitts And Nevis"}, {sno: 98,code: "KP",country: "North Korea"}, {sno: 99,code: "KR",country: "South Korea"}, {sno: 100,code: "KW",country: "Kuwait"}, {sno: 101,code: "KZ",country: "Kazakhstan"}, {sno: 102,code: "LA",country: "Laos"}, {sno: 103,code: "LB",country: "Lebanon"}, {sno: 104,code: "LC",country: "Saint Lucia"}, {sno: 105,code: "LI",country: "Liechtenstein"}, {sno: 106,code: "LK",country: "Sri Lanka"}, {sno: 107,code: "LR",country: "Liberia"}, {sno: 108,code: "LS",country: "Lesotho"}, {sno: 109,code: "LT",country: "Lithuania"}, {sno: 110,code: "LU",country: "Luxembourg"}, {sno: 111,code: "LV",country: "Latvia"}, {sno: 112,code: "LY",country: "Libya"}, {sno: 113,code: "MA",country: "Morocco"}, {sno: 114,code: "MC",country: "Monaco"}, {sno: 115,code: "MD",country: "Moldova"}, {sno: 116,code: "ME",country: "Montenegro"}, {sno: 117,code: "MG",country: "Madagascar"}, {sno: 118,code: "MH",country: "Marshall Islands"}, {sno: 119,code: "MK",country: "Macedonia"}, {sno: 120,code: "ML",country: "Mali"}, {sno: 121,code: "MM",country: "Myanmar"}, {sno: 122,code: "MN",country: "Mongolia"}, {sno: 123,code: "MR",country: "Mauritania"}, {sno: 124,code: "MT",country: "Malta"}, {sno: 125,code: "MU",country: "Mauritius"}, {sno: 126,code: "MV",country: "Maldives"}, {sno: 127,code: "MW",country: "Malawi"}, {sno: 128,code: "MX",country: "Mexico"}, {sno: 129,code: "MY",country: "Malaysia"}, {sno: 130,code: "MZ",country: "Mozambique"}, {sno: 131,code: "NA",country: "Namibia"}, {sno: 132,code: "NE",country: "Niger"}, {sno: 133,code: "NG",country: "Nigeria"}, {sno: 134,code: "NI",country: "Nicaragua"}, {sno: 135,code: "NL",country: "Netherlands"}, {sno: 136,code: "NO",country: "Norway"}, {sno: 137,code: "NP",country: "Nepal"}, {sno: 138,code: "NR",country: "Nauru"}, {sno: 139,code: "NZ",country: "New Zealand"}, {sno: 140,code: "OM",country: "Oman"}, {sno: 141,code: "PA",country: "Panama"}, {sno: 142,code: "PE",country: "Peru"}, {sno: 143,code: "PG",country: "Papua New Guinea"}, {sno: 144,code: "PH",country: "Philippines"}, {sno: 145,code: "PK",country: "Pakistan"}, {sno: 146,code: "PL",country: "Poland"}, {sno: 147,code: "PT",country: "Portugal"}, {sno: 148,code: "PW",country: "Palau"}, {sno: 149,code: "PY",country: "Paraguay"}, {sno: 150,code: "QA",country: "Qatar"}, {sno: 151,code: "RO",country: "Romania"}, {sno: 152,code: "RS",country: "Serbia"}, {sno: 153,code: "RU",country: "Russian Federation"}, {sno: 154,code: "RW",country: "Rwanda"}, {sno: 155,code: "SA",country: "Saudi Arabia"}, {sno: 156,code: "SB",country: "Solomon Islands"}, {sno: 157,code: "SC",country: "Seychelles"}, {sno: 158,code: "SD",country: "Sudan"}, {sno: 159,code: "SE",country: "Sweden"}, {sno: 160,code: "SG",country: "Singapore"}, {sno: 161,code: "SI",country: "Slovenia"}, {sno: 162,code: "SK",country: "Slovakia"}, {sno: 163,code: "SL",country: "Sierra Leone"}, {sno: 164,code: "SM",country: "San Marino"}, {sno: 165,code: "SN",country: "Senegal"}, {sno: 166,code: "SO",country: "Somalia"}, {sno: 167,code: "SR",country: "Suriname"}, {sno: 168,code: "SS",country: "South Sudan"}, {sno: 169,code: "ST",country: "Sao Tome and Principe"}, {sno: 170,code: "SV",country: "El Salvador"}, {sno: 171,code: "SY",country: "Syria"}, {sno: 172,code: "SZ",country: "Swaziland"}, {sno: 173,code: "TD",country: "Chad"}, {sno: 174,code: "TG",country: "Togo"}, {sno: 175,code: "TH",country: "Thailand"}, {sno: 176,code: "TJ",country: "Tajikistan"}, {sno: 177,code: "TL",country: "Timor-Leste"}, {sno: 178,code: "TM",country: "Turkmenistan"}, {sno: 179,code: "TN",country: "Tunisia"}, {sno: 180,code: "TO",country: "Tonga"}, {sno: 181,code: "TR",country: "Turkey"}, {sno: 182,code: "TT",country: "Trinidad and Tobago"}, {sno: 183,code: "TV",country: "Tuvalu"}, {sno: 184,code: "TW",country: "Taiwan"}, {sno: 185,code: "TZ",country: "Tanzania"}, {sno: 186,code: "UA",country: "Ukraine"}, {sno: 187,code: "UG",country: "Uganda"}, {sno: 188,code: "US",country: "United States"}, {sno: 189,code: "UY",country: "Uruguay"}, {sno: 190,code: "UZ",country: "Uzbekistan"}, {sno: 191,code: "VA",country: "Vatican City"}, {sno: 192,code: "VC",country: "Saint Vincent And The Grenadines"}, {sno: 193,code: "VE",country: "Venezuela"}, {sno: 194,code: "VN",country: "Vietnam"}, {sno: 195,code: "VU",country: "Vanuatu"}, {sno: 196,code: "WS",country: "Samoa"}, {sno: 197,code: "YE",country: "Yemen"}, {sno: 198,code: "ZA",country: "South Africa"}, {sno: 199,code: "ZM",country: "Zambia"}, {sno: 200,code: "ZW",country: "Zimbabwe"}];
+var idValue=0;
+var totalValue1 = "1,4,3,9,8,10,12,13,16,184,53,113,144,108,5,149,82,91,7,178,2,27,131,21,150,137,151,163,183,66,138,63,61,12,32,44,171,80,116,164,45,35,43,65,142,30,11,40,76,96,174,28,20,141,123,115,86,104,170,33,16,37,122,70,46,62,19,134,162,168,92,117,29,148,23,165,136,78,85,161,79,188,41,51,182,88,193,103,42,48,38,97,194,172,17,18,117,36,135,173,8,14,99,24,126,114,57,180,151"
+var totalValuekitu = "53,191,146,51,103,158,36,174,149,83,187,67,17,185,145,168,91,133,162,160,19,155,153,84,127,81,17,87,90,197,113,15,171,4,2,114,16,24,198,141,188,161,163,63,129,194,37,106,98,99,128,181,166,107,142,175,140,197,92,70,120,40,139,85,136,138,3,96,167,94,183,6,151,1,154,89,150,101,65,39,12,176,190,93,45,121,14,29,82,59,22,27,137,39,26,159,58,189,47,30,86";
+var totalValue = "1,19,35,65,115,135,182,20,36,66,116,136,183,3,21,37,67,85,117,137,184,22,38,68,86,118,138,185,5,23,39,69,77,87,119,139,186,6,10,24,40,45,70,78,88,120,140,187,25,41,46,71,79,89,121,141,144,188,8,12,26,42,47,72,80,90,122,142,145,172,189,13,27,43,48,73,81,91,123,143,146,173,190,14,28,44,49,74,82,92,124,147,174,191,15,29,50,75,83,93,125,148,175,2,16,30,51,76,84,94,101,126,149,176,17,31,52,95,102,127,150,177,7,18,32,53,96,103,128,178,192,33,54,97,104,129,152,161,179,193,34,55,98,105,130,153,162,180,194,56,99,106,131,154,163,181,195,4,11,57,100,107,132,155,164,196,58,108,133,156,165,197,59,109,134,157,166,198,60,110,158,167,199,9,61,111,159,168,200,62,112,160,169,63,113,170,64,114,171";
+var totalValueArr = totalValue.split(',');
+console.log(data[0]);
+
+function clickSerial(){
+quizValue = document.getElementById("quizchoiceId").value;
+var a=totalValueArr[idValue++];
+console.log("id :: "+a);
+if(quizValue == 'y'){
+	flags(data,a);
+}else{
+	countriesCapitals(data,a);
+}
+	
+}
+function clickC(){
+min =1;
+max= 195;
+fromValue = parseInt(document.getElementById("fromId").value);
+quizValue = document.getElementById("quizchoiceId").value;
+if(fromValue != 0){
+	min= fromValue;
+}
+
+while(found){
+	const a = Math.floor(Math.random() * (max - min + 1)) + min
+	if(str.contains(a+",")){
+		found = true;
+	}
+}
+
+if(quizValue == 'y'){
+	flags(data,a);
+}else{
+	countriesCapitals(data,a);
+}
+}
+
+function flags(data,a){
+a=a-1;
+  document.getElementById("flagId").src = "file:/C:/FlagsQuiz/flagsfolder/"+data[a].code+".jpg";
+   document.getElementById("countryp").innerHTML = "";
+		 setTimeout(()=> {
+         document.getElementById("countryp").innerHTML = data[a].country;
+		 const cptl = new SpeechSynthesisUtterance(
+    data[a].country
+  );
+  window.speechSynthesis.speak(cptl);
+      }
+      ,1500);
+
+}
+function countriesCapitals(data, a){
+a=a-1;
+alert(a);
+const synth = window.speechSynthesis;
+const voices = synth.getVoices();
+console.log(" country ::"+data[a].country);
+ document.getElementById("countryp").innerHTML = data[a].country;
+
+ const crnt = new SpeechSynthesisUtterance(
+    data[a].country
+  );
+  
+  crnt.voice= voices[0];
+  window.speechSynthesis.speak(crnt);
+ 
+   document.getElementById("capitalp").innerHTML = "";
+		 setTimeout(()=> {
+         document.getElementById("capitalp").innerHTML = data[a].capital;
+		 const cptl = new SpeechSynthesisUtterance(
+    data[a].capital
+  );
+  window.speechSynthesis.speak(cptl);
+      }
+      ,2000);
+
+}
+</script>
+</head>
+
+<body style="background-color:29AD8B;">
+ <p id="countryp" style="height:50px;" hidden>Country</p>
+ <!-- <p id="capitalp" hidden>Capital</p>  -->
+<center> <button onclick="clickSerial()"> refresh</button> </center>
+<center>
+<label id = "fromId"></label>
+<label id = "quizchoiceId"></label>
+<img id="flagId"  width="900" height="700"></img>
+</center>
+	<script>
+	let quizChoice = prompt("Quiz for Flags y/n?", "y");
+	document.getElementById("quizchoiceId").value = quizChoice;
+	if(quizChoice == 'y'){
+	document.getElementById("countryp").removeAttribute("hidden"); 
+}else{
+	countriesCapitals(data,a);
+}
+	//let from = prompt("Select Block(10,20,30,40.. till 100)", "0");
+	document.getElementById("fromId").value = 0;
+  </script>
+
+</body>
+</html>
